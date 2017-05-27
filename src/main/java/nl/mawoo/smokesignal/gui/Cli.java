@@ -1,4 +1,4 @@
-package nl.mawoo.smokesignal.GUI;
+package nl.mawoo.smokesignal.gui;
 
 import nl.mawoo.smokesignal.networking.Peer;
 

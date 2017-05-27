@@ -1,7 +1,7 @@
 package nl.mawoo.smokesignal;
 
 
-import nl.mawoo.smokesignal.GUI.Cli;
+import nl.mawoo.smokesignal.gui.Cli;
 import nl.mawoo.smokesignal.networking.P2P;
 import nl.mawoo.smokesignal.networking.Peer;
 import nl.mawoo.smokesignal.util.Util;
