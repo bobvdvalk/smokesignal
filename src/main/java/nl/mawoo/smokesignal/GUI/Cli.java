@@ -14,13 +14,13 @@ import java.util.function.Consumer;
  *
  * @author Bob van der Valk
  */
-public class cli extends Thread {
+public class Cli extends Thread {
     private final Scanner scanner;
     private final List<Peer> peers = new ArrayList<>();
     private final String handle;
     private final Consumer<String> connectCallback;
 
-    public cli(Scanner scanner, String handle, Consumer<String> connectCallback) {
+    public Cli(Scanner scanner, String handle, Consumer<String> connectCallback) {
         this.scanner = scanner;
         this.handle = handle;
         this.connectCallback = connectCallback;

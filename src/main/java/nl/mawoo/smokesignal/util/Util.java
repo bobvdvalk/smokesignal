@@ -6,7 +6,7 @@ package nl.mawoo.smokesignal.util;
  * @author Bob van der Valk
  */
 public class Util {
-    public static String random4DigitNumber() {
-        return String.valueOf((int)(Math.random()*9000)+1000);
+    public static int random4DigitNumber() {
+        return (int)(Math.random()*9000)+1000;
     }
 }
