@@ -43,7 +43,6 @@ public class SmokeSignal {
         backend.start();
         cli.start();
         LOGGER.info("Connect to other clients typing: /host:port . Like /localhost:8080");
-
     }
 
 

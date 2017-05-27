@@ -49,8 +49,6 @@ public class P2P extends Thread implements AutoCloseable {
 
     @Override
     public void run() {
-        logger.info("Staring to listen at: "+ serverSocket.getLocalPort());
-
         while(!serverSocket.isClosed()) {
             try {
                 Socket newSocket = serverSocket.accept();
