@@ -1,4 +1,4 @@
-package nl.mawoo.smokesignal.comminucation;
+package nl.mawoo.smokesignal.protocol;
 
 import org.apache.log4j.Logger;
 

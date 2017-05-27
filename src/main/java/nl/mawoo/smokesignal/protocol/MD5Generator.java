@@ -1,4 +1,4 @@
-package nl.mawoo.smokesignal.comminucation;
+package nl.mawoo.smokesignal.protocol;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

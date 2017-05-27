@@ -1,4 +1,4 @@
-package nl.mawoo.smokesignal.comminucation;
+package nl.mawoo.smokesignal.protocol;
 
 /**
  * This class checks if messages are valid

@@ -16,6 +16,8 @@ import java.util.Scanner;
  *
  * @author Bob van der Valk
  */
+// TODO: implement validation
+// TODO: let others know about others in the network
 public class SmokeSignal {
     private static final Logger LOGGER = Logger.getLogger(SmokeSignal.class);
     private static final Scanner SCANNER = new Scanner(System.in);

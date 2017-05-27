@@ -1,12 +1,10 @@
 package nl.mawoo.smokesignal.networking;
 
-import nl.mawoo.smokesignal.comminucation.Validator;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
-import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
