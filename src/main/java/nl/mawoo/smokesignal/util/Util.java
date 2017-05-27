@@ -1,7 +1,7 @@
 package nl.mawoo.smokesignal.util;
 
 /**
- * Looks like a unit test but just a temp area
+ * Util class with functions you use but they are small functions
  *
  * @author Bob van der Valk
  */

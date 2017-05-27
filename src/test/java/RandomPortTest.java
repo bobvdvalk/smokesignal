@@ -3,7 +3,7 @@ import org.apache.log4j.Logger;
 import org.junit.Test;
 
 /**
- * {message}
+ * Looks like a unit test but just a temp area
  *
  * @author Bob van der Valk
  */
