@@ -10,7 +10,6 @@ import org.junit.Test;
 public class RandomPortTest {
     private static Logger logger = Logger.getLogger(RandomPortTest.class);
 
-
     @Test
     public void randomNumberTest() {
         logger.info(Util.random4DigitNumber());
