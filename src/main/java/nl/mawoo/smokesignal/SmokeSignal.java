@@ -60,15 +60,14 @@ public class SmokeSignal {
      */
     private static ServerSocket buildSocket() {
         ServerSocket result = null;
-        int port = Util.random4DigitNumber();
         while(result == null) {
             try {
-                result = new ServerSocket(port);
+                result = new ServerSocket(Util.random4DigitNumber());
             } catch (IOException e) {
                 LOGGER.error("Could not connect to port. "+ port, e);
             }
         }
-        LOGGER.info("connection found on port: "+ port);
+        LOGGER.info("connection found on port: "+ result.getLocalPort());
         return result;
     }
 }
