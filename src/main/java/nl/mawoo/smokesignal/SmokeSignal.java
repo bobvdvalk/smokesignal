@@ -17,7 +17,8 @@ import java.util.Scanner;
  * @author Bob van der Valk
  */
 // TODO: implement validation
-// TODO: let others know about others in the network
+// TODO: let others know about others in the network so they can connect
+// TODO: Make sure it works with Android devices
 public class SmokeSignal {
     private static final Logger LOGGER = Logger.getLogger(SmokeSignal.class);
     private static final Scanner SCANNER = new Scanner(System.in);
