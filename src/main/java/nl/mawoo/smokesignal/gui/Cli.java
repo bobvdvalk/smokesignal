@@ -47,15 +47,11 @@ public class Cli extends Thread {
         while (scanner.hasNextLine()) {
 
             String line = scanner.nextLine();
-
-            // Als dit met een slash begint dan verbinden we met die host
             if (line.startsWith("/")) {
                 connectCallback.accept(line.substring(1));
             } else {
-                // Dus nu gaan we gewoon alle user input sturen naar alle peers
                 sayToAll(line);
             }
-
         }
     }
 }
