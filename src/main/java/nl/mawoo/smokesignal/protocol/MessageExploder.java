@@ -1,7 +1,7 @@
 package nl.mawoo.smokesignal.protocol;
 
 /**
- * This class checks if messages are valid
+ * This class explodes the messages to parts we can validate and use it as JSON
  *
  * @author Bob van der Valk
  */

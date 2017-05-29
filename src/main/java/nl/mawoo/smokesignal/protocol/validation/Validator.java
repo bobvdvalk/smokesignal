@@ -1,11 +1,12 @@
-package nl.mawoo.smokesignal.protocol;
+package nl.mawoo.smokesignal.protocol.validation;
 
+import nl.mawoo.smokesignal.protocol.MessageExploder;
 import org.apache.log4j.Logger;
 
 import java.security.NoSuchAlgorithmException;
 
 /**
- * {message}
+ * This class checks if messages are valid
  *
  * @author Bob van der Valk
  */
