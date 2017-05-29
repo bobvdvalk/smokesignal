@@ -1,4 +1,4 @@
-import nl.mawoo.smokesignal.protocol.Validator;
+import nl.mawoo.smokesignal.protocol.validation.Validator;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
