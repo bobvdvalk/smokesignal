@@ -28,7 +28,7 @@ public class MessageProtocolTest {
         peerRemotes.add(peer2);
         peerRemotes.add(peer3);
 
-        Connection connection = new Connection(peerRemotes, new Date());
+        Connection connection = new Connection(peerRemotes);
         return new MessageObject("connection", connection, new Date());
     }
 
