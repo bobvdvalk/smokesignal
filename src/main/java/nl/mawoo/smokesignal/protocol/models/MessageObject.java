@@ -9,10 +9,10 @@ import java.util.Date;
  */
 public class MessageObject {
     private String type;
-    private Object data;
+    private MessageType data;
     private Date datetime;
 
-    public MessageObject(String type, Object data, Date datetime) {
+    public MessageObject(String type, MessageType data, Date datetime) {
         this.type = type;
         this.data = data;
         this.datetime = datetime;
