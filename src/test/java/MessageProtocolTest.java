@@ -33,8 +33,14 @@ public class MessageProtocolTest {
     }
 
     @Test
+    public void fullProtocolTest() {
+        MessageProtocol protocol = new MessageProtocol(connectionMessageObj());
+        LOGGER.info(protocol.constructMessage());
+    }
+
+    @Test
     public void objectJsonParse() {
         MessageProtocol protocol = new MessageProtocol(connectionMessageObj());
-        LOGGER.info(protocol.constructJsonMessage());
+        LOGGER.info(protocol.constructJson());
     }
 }
